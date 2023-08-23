@@ -8,4 +8,8 @@ public class PaymentService {
 
     @Value("${stripe.apiKey}")
     private String stripeApiKey;
+
+    public void createPayment() {
+
+    }
 }
